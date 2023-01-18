@@ -30,7 +30,7 @@ KV260 などを利用する際に、回路図から Vivado の xdc に指定す�
 
 - k26-som-connector-pin.csv : DS987 内のテーブルを csv に変換したもの
 - k26_som_xdc_to_csv.py : Kria_K26_SOM_Rev1.xdc を csv に変換する python スクリプト
-
+- make_table.py : cvs を統合して１つのテーブルを作る python スクリプト
 
 ## 使い方
 
