@@ -43,10 +43,11 @@ pip install pandas
 その後、入手した Kria_K26_SOM_Rev1.xdc をカレントディレクトリにコピーして
 
 ```
-python k26_som_xdc_to_csv.py
+python make_table.py
 ```
 
-と実行すれば、k26-som-xck26-sfvc784-pin.csv が生成されます。
+と実行すれば、k26-som-xck26-sfvc784-pin.csv と kria-k26-som-pin.csv が生成されます。
+
 
 
 

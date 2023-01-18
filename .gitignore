@@ -1,6 +1,12 @@
 
+__pycache__
+
+.*
+!.gitignore
+
 *.xdc
 *.csv
 *.xlsx
+*.ipynb
 
 !k26-som-connector-pin.csv

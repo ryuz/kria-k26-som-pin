@@ -1,4 +1,4 @@
-﻿Connector Number,Pin Number,Pin Type,Signal Name,Signal Description
+﻿Connector Number,Connector Pin Number,Connector Pin Type,Signal Name,Signal Description
 1,A1,,VCC_BATT,"PS BBRAM and real-time clock (RTC) supply voltage, requires external battery. Connect to GND when battery is not used."
 1,A2,,GND,"Ground, connect to carrier card ground plane"
 1,A3,,HPA06_P,HPIO on bank 66
