@@ -1,0 +1,481 @@
+﻿Connector Number,Pin Number,Pin Type,Signal Name,Signal Description
+1,A1,,VCC_BATT,"PS BBRAM and real-time clock (RTC) supply voltage, requires external battery. Connect to GND when battery is not used."
+1,A2,,GND,"Ground, connect to carrier card ground plane"
+1,A3,,HPA06_P,HPIO on bank 66
+1,A4,,HPA06_N,HPIO on bank 66
+1,A5,,GND,"Ground, connect to carrier card ground plane"
+1,A6,GC,HPA_CLK0_P,HPIO global clock pin on bank 66
+1,A7,GC,HPA_CLK0_N,HPIO global clock pin on bank 66
+1,A8,,GND,"Ground, connect to carrier card ground plane"
+1,A9,,HPA12_P,HPIO on bank 66
+1,A10,,HPA12_N,HPIO on bank 66
+1,A11,,GND,"Ground, connect to carrier card ground plane"
+1,A12,QBC,HPA13_P,HPIO on bank 66
+1,A13,QBC,HPA13_N,HPIO on bank 66
+1,A14,,GND,"Ground, connect to carrier card ground plane"
+1,A15,HDGC,HDA09,HDIO on bank 45
+1,A16,,HDA10,HDIO on bank 45
+1,A17,,HDA11,HDIO on bank 45
+1,A18,,GND,"Ground, connect to carrier card ground plane"
+1,A19,PD50,VCCOEN_PS_M2C,Indication to turn on power for PS I/O peripherals on the carrier card
+1,A20,PD50,VCCOEN_PL_M2C,Indication to turn on power for PL /IO peripherals on the carrier card
+1,A21,,GND,"Ground, connect to carrier card ground plane"
+1,A22,PU18_4p7,JTAG_TMS_C2M,JTAG mode select
+1,A23,PU18_4p7,JTAG_TDO_M2C,JTAG data out
+1,A24,PU18_4p7,JTAG_TDI_C2M,JTAG data in
+1,A25,PU18_4p7,JTAG_TCK_C2M,JTAG clock
+1,A26,,GND,"Ground, connect to carrier card ground plane"
+1,A27,PU18_4p7,MODE0_C2M,PS mode bit 0
+1,A28,PU18_4p7,MODE1_C2M,PS mode bit 1
+1,A29,PU18_4p7,MODE2_C2M,PS mode bit 2
+1,A30,PU18_4p7,MODE3_C2M,PS mode bit 3
+1,A31,,Reserved,No connect on the SOM
+1,A32,,Reserved,No connect on the SOM
+1,A33,,GND,"Ground, connect to carrier card ground plane"
+1,A34,,MIO41,PS MIO signal on bank 501
+1,A35,,MIO42,PS MIO signal on bank 501
+1,A36,,MIO43,PS MIO signal on bank 501
+1,A37,,GND,"Ground, connect to carrier card ground plane"
+1,A38,,MIO61,PS MIO signal on bank 502
+1,A39,,MIO62,PS MIO signal on bank 502
+1,A40,,MIO63,PS MIO signal on bank 502
+1,A41,,GND,"Ground, connect to carrier card ground plane"
+1,A42,,MIO73,PS MIO signal on bank 502
+1,A43,,MIO74,PS MIO signal on bank 502
+1,A44,,MIO75,PS MIO signal on bank 502
+1,A45,,GND,"Ground, connect to carrier card ground plane"
+1,A46,,GND,"Ground, connect to carrier card ground plane"
+1,A47,,GTR_DP1_M2C_P,"PS-GTR lane 1 TX, bank 505"
+1,A48,,GTR_DP1_M2C_N,"PS-GTR lane 1 TX, bank 505"
+1,A49,,GND,"Ground, connect to carrier card ground plane"
+1,A50,,GND,"Ground, connect to carrier card ground plane"
+1,A51,AC01UF,GTR_REFCLK3_C2M_P,"PS-GTR REFCLK3 input, bank 505"
+1,A52,AC01UF,GTR_REFCLK3_C2M_N,"PS-GTR REFCLK3 input, bank 505"
+1,A53,,GND,"Ground, connect to carrier card ground plane"
+1,A54,,GND,"Ground, connect to carrier card ground plane"
+1,A55,,GTR_DP0_C2M_P,"PS-GTR lane 0 RX, bank 505"
+1,A56,,GTR_DP0_C2M_N,"PS-GTR lane 0 RX, bank 505"
+1,A57,,GND,"Ground, connect to carrier card ground plane"
+1,A58,,GND,"Ground, connect to carrier card ground plane"
+1,A59,,VCC_SOM,"SOM main supply voltage, +5V"
+1,A60,,VCC_SOM,"SOM main supply voltage, +5V"
+1,B1,QBC,HPA05_CC_P,HPIO clock-capable pin on bank 66
+1,B2,QBC,HPA05_CC_N,HPIO clock-capable pin on bank 66
+1,B3,,GND,"Ground, connect to carrier card ground plane"
+1,B4,,HPA04_P,HPIO on bank 66
+1,B5,,HPA04_N,HPIO on bank 66
+1,B6,,GND,"Ground, connect to carrier card ground plane"
+1,B7,,HPA07_P,HPIO on bank 66
+1,B8,,HPA07_N,HPIO on bank 66
+1,B9,,GND,"Ground, connect to carrier card ground plane"
+1,B10,GC,HPA11_P,HPIO on bank 66
+1,B11,GC,HPA11_N,HPIO on bank 66
+1,B12,,GND,"Ground, connect to carrier card ground plane"
+1,B13,,VCCO_HDA,"HDA I/O voltage rail, 1.2V to 3.3V"
+1,B14,,VCCO_HDA,"HDA I/O voltage rail, 1.2V to 3.3V"
+1,B15,,GND,"Ground, connect to carrier card ground plane"
+1,B16,,HDA03,HDIO on bank 45
+1,B17,,HDA04,HDIO on bank 45
+1,B18,,HDA05,HDIO on bank 45
+1,B19,,GND,"Ground, connect to carrier card ground plane"
+1,B20,,HDA15,HDIO on bank 45
+1,B21,HDGC,HDA16_CC,HDIO clock-capable pin on bank 45
+1,B22,HDGC,HDA17,HDIO on bank 45
+1,B23,,GND,"Ground, connect to carrier card ground plane"
+1,B24,,PS_ERROR_OUT_M2C,PS error indication from SOM
+1,B25,,PS_ERROR_STATUS_M2C,PS error status from SOM
+1,B26,PU50,PWROFF_C2M_L,Control signal to turn off all power rails on the SOM
+1,B27,,GND,"Ground, connect to carrier card ground plane"
+1,B28,,MIO35_WD_OUT,PS MIO signal on bank 501. Optional use as PMU output. Default use as PMU watchdog output in the released Kria PetaLinux BSPs.
+1,B29,,MIO36,PS MIO signal on bank 501. Optional use as PMU output. Default use as UART txd in the released Kria PetaLinux BSPs.
+1,B30,,MIO37,PS MIO signal on bank 501. Optional use as PMU output. Default use as UART rxd in the released Kria PetaLinux BSPs.
+1,B31,,GND,"Ground, connect to carrier card ground plane"
+1,B32,,MIO38,PS MIO signal on bank 501
+1,B33,,MIO39,PS MIO signal on bank 501
+1,B34,,MIO40,PS MIO signal on bank 501
+1,B35,,GND,"Ground, connect to carrier card ground plane"
+1,B36,,MIO50,PS MIO signal on bank 501
+1,B37,,MIO51,PS MIO signal on bank 501
+1,B38,,Reserved,Not connected to SOM connector
+1,B39,,GND,"Ground, connect to carrier card ground plane"
+1,B40,,MIO58,PS MIO signal on bank 502
+1,B41,,MIO59,PS MIO signal on bank 502
+1,B42,,MIO60,PS MIO signal on bank 502
+1,B43,,GND,"Ground, connect to carrier card ground plane"
+1,B44,,MIO70,PS MIO signal on bank 502
+1,B45,,MIO71,PS MIO signal on bank 502
+1,B46,,MIO72,PS MIO signal on bank 502
+1,B47,,GND,"Ground, connect to carrier card ground plane"
+1,B48,,GND,"Ground, connect to carrier card ground plane"
+1,B49,AC01UF,GTR_REFCLK1_C2M_P,"PS-GTR REFCLK1 input, bank 505"
+1,B50,AC01UF,GTR_REFCLK1_C2M_N,"PS-GTR REFCLK1 input, bank 505"
+1,B51,,GND,"Ground, connect to carrier card ground plane"
+1,B52,,GND,"Ground, connect to carrier card ground plane"
+1,B53,,GTR_DP2_C2M_P,"PS-GTR lane 2 RX, bank 505"
+1,B54,,GTR_DP2_C2M_N,"PS-GTR lane 2 RX, bank 505"
+1,B55,,GND,"Ground, connect to carrier card ground plane"
+1,B56,,GND,"Ground, connect to carrier card ground plane"
+1,B57,,GTR_DP0_M2C_P,"PS-GTR lane 0 TX, bank 505"
+1,B58,,GTR_DP0_M2C_N,"PS-GTR lane 0 TX, bank 505"
+1,B59,,GND,"Ground, connect to carrier card ground plane"
+1,B60,,VCC_SOM,"SOM main supply voltage, +5V"
+1,C1,,GND,"Ground, connect to carrier card ground plane"
+1,C2,,GND,"Ground, connect to carrier card ground plane"
+1,C3,DBC,HPA00_CC_P,HPIO clock-capable pin on bank 66
+1,C4,DBC,HPA00_CC_N,HPIO clock-capable pin on bank 66
+1,C5,,GND,"Ground, connect to carrier card ground plane"
+1,C6,DBC,HPA03_P,HPIO on bank 66
+1,C7,DBC,HPA03_N,HPIO on bank 66
+1,C8,,GND,"Ground, connect to carrier card ground plane"
+1,C9,QBC,HPA08_P,HPIO on bank 66
+1,C10,QBC,HPA08_N,HPIO on bank 66
+1,C11,,GND,"Ground, connect to carrier card ground plane"
+1,C12,"GC, QBC",HPA10_CC_P,HPIO clock-capable pin on bank 66
+1,C13,"GC, QBC",HPA10_CC_N,HPIO clock-capable pin on bank 66
+1,C14,,GND,"Ground, connect to carrier card ground plane"
+1,C15,PU18_4p7,PS_POR_L,"PS power-on reset driven by the carrier card. When deasserted, the PS begins the boot process."
+1,C16,PU18_4p7,PS_SRST_C2M_L,"PS system reset driven by the carrier card. When asserted, forces the PS to enter the system reset sequence."
+1,C17,,GND,"Ground, connect to carrier card ground plane"
+1,C18,,HDA06,HDIO on bank 45
+1,C19,,HDA07,HDIO on bank 45
+1,C20,HDGC,HDA08_CC,HDIO clock-capable pin on bank 45
+1,C21,,GND,Ground
+1,C22,,HDA18,HDIO on bank 45
+1,C23,,HDA19,HDIO on bank 45
+1,C24,,HDA20,HDIO on bank 45
+1,C25,,GND,"Ground, connect to carrier card ground plane"
+1,C26,PU18_2p2,MIO24_I2C_SCK,"PS I2C clock output, bank 500"
+1,C27,PU18_2p2,MIO25_I2C_SDA,"PS I2C serial data, bank 500"
+1,C28,PU18_10,MIO12_FWUEN_C2M_L,PS MIO signal on bank 500. Optional default use as firmware update enable indication in the released Kria PetaLinux BSPs.
+1,C29,,GND,"Ground, connect to carrier card ground plane"
+1,C30,,MIO29,PS MIO signal on bank 501. Optional use as PMU input.
+1,C31,,MIO30,PS MIO signal on bank 501. Optional use as PMU input.
+1,C32,,MIO31_SHUTDOWN,"PS MIO signal on bank 501. Optional use as PMU input. In default Kria PetaLinux BSPs, this is a PMU library enabled input for hardware-initiated shutdown by the PMU."
+1,C33,,GND,"Ground, connect to carrier card ground plane"
+1,C34,,MIO47,PS MIO signal on bank 501
+1,C35,,MIO48,PS MIO signal on bank 501
+1,C36,,MIO49,PS MIO signal on bank 501
+1,C37,,GND,"Ground, connect to carrier card ground plane"
+1,C38,,MIO55,PS MIO signal on bank 502
+1,C39,,MIO56,PS MIO signal on bank 502
+1,C40,,MIO57,PS MIO signal on bank 502
+1,C41,,GND,"Ground, connect to carrier card ground plane"
+1,C42,,MIO67,PS MIO signal on bank 502
+1,C43,,MIO68,PS MIO signal on bank 502
+1,C44,,MIO69,PS MIO signal on bank 502
+1,C45,,Reserved,No connect on the SOM
+1,C46,,GND,"Ground, connect to carrier card ground plane"
+1,C47,AC01UF,GTR_REFCLK0_C2M_P,"PS-GTR REFCLK0 input, bank 505"
+1,C48,AC01UF,GTR_REFCLK0_C2M_N,"PS-GTR REFCLK0 input, bank 505"
+1,C49,,GND,"Ground, connect to carrier card ground plane"
+1,C50,,GND,"Ground, connect to carrier card ground plane"
+1,C51,,GTR_DP3_M2C_P,"PS-GTR lane 3 TX, bank 505"
+1,C52,,GTR_DP3_M2C_N,"PS-GTR lane 3 TX, bank 505"
+1,C53,,GND,"Ground, connect to carrier card ground plane"
+1,C54,,GND,"Ground, connect to carrier card ground plane"
+1,C55,,GTR_DP1_C2M_P,"PS-GTR lane 1 RX, bank 505"
+1,C56,,GTR_DP1_C2M_N,"PS-GTR lane 1 RX, bank 505"
+1,C57,,GND,"Ground, connect to carrier card ground plane"
+1,C58,,GND,"Ground, connect to carrier card ground plane"
+1,C59,,VCC_SOM,"SOM main supply voltage, +5V"
+1,C60,,VCC_SOM,"SOM main supply voltage, +5V"
+1,D1,,VCCO_HPA,"HPA I/O voltage rail, 1.0V to 1.8V"
+1,D2,,VCCO_HPA,"HPA I/O voltage rail, 1.0V to 1.8V"
+1,D3,,GND,"Ground, connect to carrier card ground plane"
+1,D4,,HPA02_P,HPIO on bank 66
+1,D5,,HPA02_N,HPIO on bank 66
+1,D6,,GND,"Ground, connect to carrier card ground plane"
+1,D7,,HPA01_P,HPIO on bank 66
+1,D8,,HPA01_N,HPIO on bank 66
+1,D9,,GND,"Ground, connect to carrier card ground plane"
+1,D10,GC,HPA09_P,HPIO on bank 66
+1,D11,GC,HPA09_N,HPIO on bank 66
+1,D12,,GND,"Ground, connect to carrier card ground plane"
+1,D13,,HPA14_P,HPIO on bank 66
+1,D14,,HPA14_N,HPIO on bank 66
+1,D15,,GND,"Ground, connect to carrier card ground plane"
+1,D16,HDGC,HDA00_CC,HDIO clock-capable pin on bank 45
+1,D17,HDGC,HDA01,HDIO on bank 45
+1,D18,,HDA02,HDIO on bank 45
+1,D19,,GND,"Ground, connect to carrier card ground plane"
+1,D20,HDGC,HDA12,HDIO on bank 45
+1,D21,HDGC,HDA13,HDIO on bank 45
+1,D22,,HDA14,HDIO on bank 45
+1,D23,,GND,"Ground, connect to carrier card ground plane"
+1,D24,PD50,PWRGD_FPD_M2C,Power good indication for PS FPD power rails
+1,D25,PD50,PWRGD_LPD_M2C,Power good indication for PS LPD power rails
+1,D26,PD50,PWRGD_PL_M2C,Power good indication for all PL power rails
+1,D27,,GND,"Ground, connect to carrier card ground plane"
+1,D28,,MIO26,PS MIO signal on bank 501. Optional use as PMU input.
+1,D29,,MIO27,PS MIO signal on bank 501. Optional use as PMU input.
+1,D30,,MIO28,PS MIO signal on bank 501. Optional use as PMU input.
+1,D31,,GND,"Ground, connect to carrier card ground plane"
+1,D32,,MIO44,PS MIO signal on bank 501
+1,D33,,MIO45,PS MIO signal on bank 501
+1,D34,,MIO46,PS MIO signal on bank 501
+1,D35,,GND,"Ground, connect to carrier card ground plane"
+1,D36,,MIO52,PS MIO signal on bank 502
+1,D37,,MIO53,PS MIO signal on bank 502
+1,D38,,MIO54,PS MIO signal on bank 502
+1,D39,,GND,"Ground, connect to carrier card ground plane"
+1,D40,,MIO64,PS MIO signal on bank 502
+1,D41,,MIO65,PS MIO signal on bank 502
+1,D42,,MIO66,PS MIO signal on bank 502
+1,D43,,GND,"Ground, connect to carrier card ground plane"
+1,D44,,MIO76,PS MIO signal on bank 502
+1,D45,,MIO77,PS MIO signal on bank 502
+1,D46,,Reserved,No connect on the SOM
+1,D47,,GND,"Ground, connect to carrier card ground plane"
+1,D48,,GND,"Ground, connect to carrier card ground plane"
+1,D49,,GTR_DP3_C2M_P,"PS-GTR lane 3 RX, bank 505"
+1,D50,,GTR_DP3_C2M_N,"PS-GTR lane 3 RX, bank 505"
+1,D51,,GND,"Ground, connect to carrier card ground plane"
+1,D52,,GND,"Ground, connect to carrier card ground plane"
+1,D53,AC01UF,GTR_REFCLK2_C2M_P,"PS-GTR REFCLK2 input, bank 505"
+1,D54,AC01UF,GTR_REFCLK2_C2M_N,"PS-GTR REFCLK2 input, bank 505"
+1,D55,,GND,"Ground, connect to carrier card ground plane"
+1,D56,,GND,"Ground, connect to carrier card ground plane"
+1,D57,,GTR_DP2_M2C_P,"PS-GTR lane 2 TX, bank 505"
+1,D58,,GTR_DP2_M2C_N,"PS-GTR lane 2 TX, bank 505"
+1,D59,,GND,"Ground, connect to carrier card ground plane"
+1,D60,,VCC_SOM,"SOM main supply voltage, +5V"
+2,A1,,GND,"Ground, connect to carrier card ground plane"
+2,A2,,GND,"Ground, connect to carrier card ground plane"
+2,A3,,GTH_DP3_M2C_P,"GTH lane 3 TX, bank 224"
+2,A4,,GTH_DP3_M2C_N,"GTH lane 3 TX, bank 224"
+2,A5,,GND,"Ground, connect to carrier card ground plane"
+2,A6,,GND,"Ground, connect to carrier card ground plane"
+2,A7,AC01UF,GTH_REFCLK1_C2M_P,"GTH REFCLK1 input, bank 224"
+2,A8,AC01UF,GTH_REFCLK1_C2M_N,"GTH REFCLK1 input, bank 224"
+2,A9,,GND,"Ground, connect to carrier card ground plane"
+2,A10,,GND,"Ground, connect to carrier card ground plane"
+2,A11,DBC,HPB15_CC_P,HPIO clock-capable pin on bank 65
+2,A12,DBC,HPB15_CC_N,HPIO clock-capable pin on bank 65
+2,A13,,GND,"Ground, connect to carrier card ground plane"
+2,A14,QBC,HPB08_P,HPIO on bank 65
+2,A15,QBC,HPB08_N,HPIO on bank 65
+2,A16,,GND,"Ground, connect to carrier card ground plane"
+2,A17,,HPB12_P,HPIO on bank 65
+2,A18,,HPB12_N,HPIO on bank 65
+2,A19,,GND,"Ground, connect to carrier card ground plane"
+2,A20,,HPB06_P,HPIO on bank 65
+2,A21,,HPB06_N,HPIO on bank 65
+2,A22,,GND,"Ground, connect to carrier card ground plane"
+2,A23,,HPB16_P,HPIO on bank 65
+2,A24,,HPB16_N,HPIO on bank 65
+2,A25,,GND,"Ground, connect to carrier card ground plane"
+2,A26,PERSTN1,HPB_19_P,HPIO on bank 65
+2,A27,PERSTN0,HPB_19_N,HPIO on bank 65
+2,A28,,GND,"Ground, connect to carrier card ground plane"
+2,A29,QBC,HPC08_P,HPIO on bank 64
+2,A30,QBC,HPC08_N,HPIO on bank 64
+2,A31,,GND,"Ground, connect to carrier card ground plane"
+2,A32,,HPC19_P,HPIO on bank 64
+2,A33,,HPC19_N,HPIO on bank 64
+2,A34,,GND,"Ground, connect to carrier card ground plane"
+2,A35,,HPC14_P,HPIO on bank 64
+2,A36,,HPC14_N,HPIO on bank 64
+2,A37,,GND,"Ground, connect to carrier card ground plane"
+2,A38,DBC,HPC15_CC_P,HPIO clock-capable pin on bank 64
+2,A39,DBC,HPC15_CC_N,HPIO clock-capable pin on bank 64
+2,A40,,GND,"Ground, connect to carrier card ground plane"
+2,A41,DBC,HPC03_P,HPIO on bank 64
+2,A42,DBC,HPC03_N,HPIO on bank 64
+2,A43,,GND,"Ground, connect to carrier card ground plane"
+2,A44,,VCCO_HPB,"HPB I/O voltage rail, 1.0V to 1.8V"
+2,A45,,GND,"Ground, connect to carrier card ground plane"
+2,A46,,HDB18,HDIO on bank 43
+2,A47,,HDB19,HDIO on bank 43
+2,A48,,HDB20,HDIO on bank 43
+2,A49,,GND,"Ground, connect to carrier card ground plane"
+2,A50,,HDB21,HDIO on bank 43
+2,A51,,HDB22,HDIO on bank 43
+2,A52,,HDB23,HDIO on bank 43
+2,A53,,GND,"Ground, connect to carrier card ground plane"
+2,A54,,HDC18,HDIO on bank 44
+2,A55,,HDC19,HDIO on bank 44
+2,A56,,HDC20,HDIO on bank 44
+2,A57,,GND,"Ground, connect to carrier card ground plane"
+2,A58,,HDC21,HDIO on bank 44
+2,A59,,HDC22,HDIO on bank 44
+2,A60,,HDC23,HDIO on bank 44
+2,B1,,GTH_DP2_C2M_P,"GTH lane 2 RX, bank 224"
+2,B2,,GTH_DP2_C2M_N,"GTH lane 2 RX, bank 224"
+2,B3,,GND,"Ground, connect to carrier card ground plane"
+2,B4,,GND,"Ground, connect to carrier card ground plane"
+2,B5,,GTH_DP2_M2C_P,"GTH lane 2 TX, bank 224"
+2,B6,,GTH_DP2_M2C_N,"GTH lane 2 TX, bank 224"
+2,B7,,GND,"Ground, connect to carrier card ground plane"
+2,B8,,GND,"Ground, connect to carrier card ground plane"
+2,B9,,GTH_DP0_C2M_P,"GTH lane 0 RX, bank 224"
+2,B10,,GTH_DP0_C2M_N,"GTH lane 0 RX, bank 224"
+2,B11,,GND,"Ground, connect to carrier card ground plane"
+2,B12,"GC, QBC",HPB10_CC_P,HPIO clock-capable pin on bank 65
+2,B13,"GC, QBC",HPB10_CC_N,HPIO clock-capable pin on bank 65
+2,B14,,GND,"Ground, connect to carrier card ground plane"
+2,B15,,HPB07_P,HPIO on bank 65
+2,B16,,HPB07_N,HPIO on bank 65
+2,B17,,GND,"Ground, connect to carrier card ground plane"
+2,B18,QBC,HPB05_CC_P,HPIO clock-capable pin on bank 65
+2,B19,QBC,HPB05_CC_N,HPIO clock-capable pin on bank 65
+2,B20,,GND,"Ground, connect to carrier card ground plane"
+2,B21,GC,HPB11_P,HPIO on bank 65
+2,B22,GC,HPB11_N,HPIO on bank 65
+2,B23,,GND,"Ground, connect to carrier card ground plane"
+2,B24,DBC,HPB03_P,HPIO on bank 65
+2,B25,DBC,HPB03_N,HPIO on bank 65
+2,B26,,GND,"Ground, connect to carrier card ground plane"
+2,B27,,HPC06_P,HPIO on bank 64
+2,B28,,HPC06_N,HPIO on bank 64
+2,B29,,GND,"Ground, connect to carrier card ground plane"
+2,B30,QBC,HPC13_P,HPIO on bank 64
+2,B31,QBC,HPC13_N,HPIO on bank 64
+2,B32,,GND,"Ground, connect to carrier card ground plane"
+2,B33,,HPC16_P,HPIO on bank 64
+2,B34,,HPC16_N,HPIO on bank 64
+2,B35,,GND,"Ground, connect to carrier card ground plane"
+2,B36,,HPC07_P,HPIO on bank 64
+2,B37,,HPC07_N,HPIO on bank 64
+2,B38,,GND,"Ground, connect to carrier card ground plane"
+2,B39,DBC,HPC18_P,HPIO on bank 64
+2,B40,DBC,HPC18_N,HPIO on bank 64
+2,B41,,GND,"Ground, connect to carrier card ground plane"
+2,B42,,VCCO_HPB,"HPB I/O voltage rail, 1.0V to 1.8V"
+2,B43,,GND,"Ground, connect to carrier card ground plane"
+2,B44,HDGC,HDB12,HDIO on bank 43
+2,B45,HDGC,HDB13,HDIO on bank 43
+2,B46,,HDB14,HDIO on bank 43
+2,B47,,GND,"Ground, connect to carrier card ground plane"
+2,B48,,HDB15,HDIO on bank 43
+2,B49,HDGC,HDB16_CC,HDIO clock-capable pin on bank 43
+2,B50,HDGC,HDB17,HDIO on bank 43
+2,B51,,GND,"Ground, connect to carrier card ground plane"
+2,B52,HDGC,HDC12,HDIO on bank 44
+2,B53,HDGC,HDC13,HDIO on bank 44
+2,B54,,HDC14,HDIO on bank 44
+2,B55,,GND,"Ground, connect to carrier card ground plane"
+2,B56,,HDC15,HDIO on bank 44
+2,B57,HDGC,HDC16_CC,HDIO clock-capable pin on bank 44
+2,B58,HDGC,HDC17,HDIO on bank 44
+2,B59,,VCCO_HDB,"HDB I/O voltage rail, 1.2V to 3.3V"
+2,B60,,VCCO_HDB,"HDB I/O voltage rail, 1.2V to 3.3V"
+2,C1,,GND,"Ground, connect to carrier card ground plane"
+2,C2,,GND,"Ground, connect to carrier card ground plane"
+2,C3,AC01UF,GTH_REFCLK0_C2M_P,"GTH REFCLK0 input, bank 224"
+2,C4,AC01UF,GTH_REFCLK0_C2M_N,"GTH REFCLK0 input, bank 224"
+2,C5,,GND,"Ground, connect to carrier card ground plane"
+2,C6,,GND,"Ground, connect to carrier card ground plane"
+2,C7,,GTH_DP1_M2C_P,"GTH lane 1 TX, bank 224"
+2,C8,,GTH_DP1_M2C_N,"GTH lane 1 TX, bank 224"
+2,C9,,GND,"Ground, connect to carrier card ground plane"
+2,C10,,GND,"Ground, connect to carrier card ground plane"
+2,C11,GC,HPB09_P,HPIO on bank 65
+2,C12,GC,HPB09_N,HPIO on bank 65
+2,C13,,GND,"Ground, connect to carrier card ground plane"
+2,C14,,HPB14_P,HPIO on bank 65
+2,C15,,HPB14_N,HPIO on bank 65
+2,C16,,GND,"Ground, connect to carrier card ground plane"
+2,C17,,HPB02_P,HPIO on bank 65
+2,C18,,HPB02_N,HPIO on bank 65
+2,C19,,GND,"Ground, connect to carrier card ground plane"
+2,C20,QBC,HPB13_P,HPIO on bank 65
+2,C21,QBC,HPB13_N,HPIO on bank 65
+2,C22,,GND,"Ground, connect to carrier card ground plane"
+2,C23,,HPB_18_P,HPIO on bank 65
+2,C24,,HPB_18_N,HPIO on bank 65
+2,C25,,GND,"Ground, connect to carrier card ground plane"
+2,C26,,HPC17_P,HPIO on bank 64
+2,C27,,HPC17_N,HPIO on bank 64
+2,C28,,GND,"Ground, connect to carrier card ground plane"
+2,C29,"GC, QBC",HPC10_CC_P,HPIO clock-capable pin on bank 64
+2,C30,"GC, QBC",HPC10_CC_N,HPIO clock-capable pin on bank 64
+2,C31,,GND,"Ground, connect to carrier card ground plane"
+2,C32,GC,HPC11_P,HPIO on bank 64
+2,C33,GC,HPC11_N,HPIO on bank 64
+2,C34,,GND,"Ground, connect to carrier card ground plane"
+2,C35,,HPC12_P,HPIO on bank 64
+2,C36,,HPC12_N,HPIO on bank 64
+2,C37,,GND,"Ground, connect to carrier card ground plane"
+2,C38,QBC,HPC05_CC_P,HPIO clock-capable pin on bank 64
+2,C39,QBC,HPC05_CC_N,HPIO clock-capable pin on bank 64
+2,C40,,GND,"Ground, connect to carrier card ground plane"
+2,C41,GC,HPC_CLK0_P,HPIO global clock pin on bank 64
+2,C42,GC,HPC_CLK0_N,HPIO global clock pin on bank 64
+2,C43,,GND,"Ground, connect to carrier card ground plane"
+2,C44,,VCCO_HPC,"HPC I/O voltage rail, 1.0V to 1.8V"
+2,C45,,GND,"Ground, connect to carrier card ground plane"
+2,C46,,HDB06,HDIO on bank 43
+2,C47,,HDB07,HDIO on bank 43
+2,C48,HDGC,HDB08_CC,HDIO clock-capable pin on bank 43
+2,C49,,GND,"Ground, connect to carrier card ground plane"
+2,C50,HDGC,HDB09,HDIO on bank 43
+2,C51,,HDB10,HDIO on bank 43
+2,C52,,HDB11,HDIO on bank 43
+2,C53,,GND,"Ground, connect to carrier card ground plane"
+2,C54,,HDC06,HDIO on bank 44
+2,C55,,HDC07,HDIO on bank 44
+2,C56,HDGC,HDC08_CC,HDIO clock-capable pin on bank 44
+2,C57,,GND,"Ground, connect to carrier card ground plane"
+2,C58,HDGC,HDC09,HDIO on bank 44
+2,C59,,HDC10,HDIO on bank 44
+2,C60,,HDC11,HDIO on bank 44
+2,D1,,GTH_DP1_C2M_P,"GTH lane 1 RX, bank 224"
+2,D2,,GTH_DP1_C2M_N,"GTH lane 1 RX, bank 224"
+2,D3,,GND,"Ground, connect to carrier card ground plane"
+2,D4,,GND,"Ground, connect to carrier card ground plane"
+2,D5,,GTH_DP3_C2M_P,"GTH lane 3 RX, bank 224"
+2,D6,,GTH_DP3_C2M_N,"GTH lane 3 RX, bank 224"
+2,D7,,GND,"Ground, connect to carrier card ground plane"
+2,D8,,GND,"Ground, connect to carrier card ground plane"
+2,D9,,GTH_DP0_M2C_P,"GTH lane 0 TX, bank 224"
+2,D10,,GTH_DP0_M2C_N,"GTH lane 0 TX, bank 224"
+2,D11,,GND,"Ground, connect to carrier card ground plane"
+2,D12,,HPB01_P,HPIO on bank 65
+2,D13,,HPB01_N,HPIO on bank 65
+2,D14,,GND,"Ground, connect to carrier card ground plane"
+2,D15,DBC,HPB00_CC_P,HPIO clock-capable pin on bank 65
+2,D16,DBC,HPB00_CC_N,HPIO clock-capable pin on bank 65
+2,D17,,GND,"Ground, connect to carrier card ground plane"
+2,D18,GC,HPB_CLK0_P,HPIO global clock pin on bank 65
+2,D19,GC,HPB_CLK0_N,HPIO global clock pin on bank 65
+2,D20,,GND,"Ground, connect to carrier card ground plane"
+2,D21,,HPB04_P,HPIO on bank 65
+2,D22,,HPB04_N,HPIO on bank 65
+2,D23,,GND,"Ground, connect to carrier card ground plane"
+2,D24,DBC,HPB17_P,HPIO on bank 65
+2,D25,DBC,HPB17_N,HPIO on bank 65
+2,D26,,GND,"Ground, connect to carrier card ground plane"
+2,D27,GC,HPC09_P,HPIO on bank 64
+2,D28,GC,HPC09_N,HPIO on bank 64
+2,D29,,GND,"Ground, connect to carrier card ground plane"
+2,D30,,HPC01_P,HPIO on bank 64
+2,D31,,HPC01_N,HPIO on bank 64
+2,D32,,GND,"Ground, connect to carrier card ground plane"
+2,D33,DBC,HPC00_CC_P,HPIO clock-capable pin on bank 64
+2,D34,DBC,HPC00_CC_N,HPIO clock-capable pin on bank 64
+2,D35,,GND,"Ground, connect to carrier card ground plane"
+2,D36,,HPC02_P,HPIO on bank 64
+2,D37,,HPC02_N,HPIO on bank 64
+2,D38,,GND,"Ground, connect to carrier card ground plane"
+2,D39,,HPC04_P,HPIO on bank 64
+2,D40,,HPC04_N,HPIO on bank 64
+2,D41,,GND,"Ground, connect to carrier card ground plane"
+2,D42,,VCCO_HPC,"HPC I/O voltage rail, 1.0V to 1.8V"
+2,D43,,GND,"Ground, connect to carrier card ground plane"
+2,D44,HDGC,HDB00_CC,HDIO clock-capable pin on bank 43
+2,D45,HDGC,HDB01,HDIO on bank 43
+2,D46,,HDB02,HDIO on bank 43
+2,D47,,GND,"Ground, connect to carrier card ground plane"
+2,D48,,HDB03,HDIO on bank 43
+2,D49,,HDB04,HDIO on bank 43
+2,D50,,HDB05,HDIO on bank 43
+2,D51,,GND,"Ground, connect to carrier card ground plane"
+2,D52,HDGC,HDC00_CC,HDIO clock-capable pin on bank 44
+2,D53,HDGC,HDC01,HDIO on bank 44
+2,D54,,HDC02,HDIO on bank 44
+2,D55,,GND,"Ground, connect to carrier card ground plane"
+2,D56,,HDC03,HDIO on bank 44
+2,D57,,HDC04,HDIO on bank 44
+2,D58,,HDC05,HDIO on bank 44
+2,D59,,VCCO_HDC,"HDC I/O voltage rail, 1.2V to 3.3V"
+2,D60,,VCCO_HDC,"HDC I/O voltage rail, 1.2V to 3.3V"

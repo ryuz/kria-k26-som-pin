@@ -1,0 +1,6 @@
+
+*.xdc
+*.csv
+*.xlsx
+
+!k26-som-connector-pin.csv
